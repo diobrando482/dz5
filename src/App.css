@@ -1,0 +1,96 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.post-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.comment-name {
+  font-weight: bold;
+}
+
+.comment-email {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comment-body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card__body {
+  margin-top: 10px;
+}
+
+.card__body__comment {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.show-comments-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
